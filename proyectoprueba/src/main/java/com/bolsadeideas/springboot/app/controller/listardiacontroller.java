@@ -27,7 +27,7 @@ public class listardiacontroller {
 	public Iterable<Dia> listardia(Authentication authentication){
 		
 		
-		//Logger.info("EL ROL ES "+ authentication.getAuthorities());
+		Logger.info("EL ROL ES "+ authentication.getAuthorities());
 		return servicelistar.listardia();
 	}
 

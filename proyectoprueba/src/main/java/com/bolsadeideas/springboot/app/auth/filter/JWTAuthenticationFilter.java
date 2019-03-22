@@ -79,7 +79,8 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
 		}
 		
 		username = username.trim();
-		
+		logger.info("NOS ENCONTRAMOS EN EL FILTRO PARA AUTENTICARNOS");
+
 		UsernamePasswordAuthenticationToken authToken = new UsernamePasswordAuthenticationToken(username, password);
 		
 		return authenticationManager.authenticate(authToken);
