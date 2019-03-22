@@ -19,7 +19,8 @@ import com.bolsadeideas.springboot.app.repository.IUsuarioDao;
 
 @Service
 public class JpaUserDetailsService implements UserDetailsService{
-	
+	//Esta parte es donde se crea los usuarios y para esto tenemos este servicio que implementa UserDetailsService
+
 	@Autowired
 	private IUsuarioDao usuarioDao;
 	
