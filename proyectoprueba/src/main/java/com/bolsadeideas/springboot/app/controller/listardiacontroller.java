@@ -16,7 +16,7 @@ import ch.qos.logback.classic.Logger;
 
 @RestController
 public class listardiacontroller {
-
+	//Esta parte es de los controles
 	@Autowired
 	private IlistarDia servicelistar;
 	
