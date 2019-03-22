@@ -26,4 +26,10 @@ public class ListarDia implements IlistarDia {
 		return   diarepository.findAll();
 	}
 
+
+	@Override
+	public Dia buscarpordia(Long id) {
+		return diarepository.findById(id).orElse(null);
+	}
+
 }

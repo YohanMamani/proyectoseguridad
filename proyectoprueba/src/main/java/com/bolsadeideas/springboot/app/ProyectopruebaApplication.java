@@ -9,6 +9,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 public class ProyectopruebaApplication {
 	@Autowired
 	private BCryptPasswordEncoder passwordEncoder;
+	
 	public static void main(String[] args) {
 		SpringApplication.run(ProyectopruebaApplication.class, args);
 	}
