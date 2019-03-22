@@ -6,4 +6,5 @@ public interface IlistarDia {
 	
 	Iterable<Dia> listardia();
 	
+	Dia buscarpordia(Long id);
 }
